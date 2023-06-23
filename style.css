@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-right{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+.nav-left{
+    float: left;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.nav-left img{
+    width: 180px;
+    padding: 15px;
+}
+.Home{
+    width: 100%;
+    background-image: url(imgs/drew-coffman-1872.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.text{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translateX(-50%) translateY(-50%);
+}
+.text h4,h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+}
+.text h1{
+    font-family: 'Alegreya', serif;
+    font-weight: 300;
+    font-size: 80px;
+}
+.buttons{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translateX(-50%) translateY(-50%);
+}
+.buttons button{
+    background: transparent;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border: 3px solid white;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.description{
+    margin: 40px;
+    background-color: white;
+}
+.box1{
+    width:50% ;
+    float: left;
+}
+.box1 img{
+    width: 90%;
+    padding: 50px;
+}
+
+.box2{
+    width: 50%;
+    float: right;
+}
+.box2 .text1{
+    margin-top: 40px;
+    padding: 30px;
+    line-height: 1.6;
+}
+.text1 h2{
+    margin-bottom: 20px;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: 300 ;
+}
+.text1 p{
+    margin-bottom: 7px;
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+    font-weight: 300 ;
+    color:#686868;
+    line-height: 1.9;
+}
+
+.icons table{
+    margin-left: 30px;
+    margin-top: -2px;
+}
+.icons img {
+    width: 80%;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 30px;
+    margin: 0px 5px 15px 3px;
+}
+.icons h3{
+    width: 500px;
+    font-family: 'Alegreya Sans', serif;
+    font-size: 17px;
+    font-weight: 300 ;
+    margin-top: -5px;
+    color:#686868;
+}
+
+.clear{
+    clear: both;
+}
+.location{
+    background-color: #f8f8f8;
+}
+.textbox{
+    width: 50%;
+    float: left;
+}
+.textbox h2{
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: 300 ;
+    margin: 50px 0px 0px 30px;
+    padding: 30px;
+}
+.textbox p{
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+    font-weight: 300 ;
+    line-height: 1.8;
+    color:#686868;
+    margin: 0px 0px 0px 30px;
+    padding-left: 30px;
+}
+.imgbox{
+    width: 50%;
+    float: right;
+}
+.imgbox img {
+    width: 80%;
+    margin: 30px;
+    padding: 20px;
+}
+
+.backing{
+    background-color: white;
+}
+.backing h1{
+    font-family: 'Alegreya', serif;
+    font-weight: 300 ;
+    text-align: center;
+    margin-top: 30px;
+}
+.backing h2{
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+    font-weight: 300 ;
+    text-align: center;
+    color:#686868;
+    margin: 20px 0px 30px;
+}
+
+.offer{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.offer img{
+    width: 95%;
+}
+.des{
+    text-align: center;
+    margin: 15px;
+}
+.des h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 300 ;
+}
+.des p{
+    font-family: 'Alegreya Sans', serif;
+    font-size: 17px;
+    font-weight: 300 ;
+    text-align: center;
+    color:#686868;
+    line-height: 1.7;
+}
+
+.contact{
+    background-color: #f8f8f8;
+}
+.map{
+    width: 50%;
+    float: right;
+}
+.map iframe {
+    margin: 20px;
+    padding: 40px;
+}
+.info{
+    width: 50%;
+    float: left;
+}
+.container{
+    margin: 30px;
+    padding: 40px;
+}
+.container h1{
+    margin-bottom: 25px;
+    font-family: 'Alegreya', serif;
+    font-weight: 300 ;
+}
+.container p{
+    font-family: 'Alegreya Sans', serif;
+    font-size: 17px;
+    font-weight: 400 ;
+    color:#8e7754;
+    line-height: 1.7;
+}
+.container h2{
+    font-family: 'Alegreya Sans', serif;
+    font-size: 17px;
+    font-weight: 400 ;
+    color:#8e7754;
+    margin-top: 30px;
+}
+.details table{
+    padding-top: 20px;
+}
+.details img {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 30px;
+    margin: 10px;
+    background-color:#8e7754 ;
+}
+.details h3{
+    width: 430px;
+    font-family: 'Alegreya Sans', serif;
+    font-size: 17px;
+    font-weight: 300 ;
+    margin-left: 20px;
+    color:#686868;
+}
+
+.footer{
+    background-color: #403d38;
+}
+.segment{
+    width: 20%;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+}
+.segment h1{
+    color: #ffffff;
+    font-size: 19px;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.segment table{
+    padding-top: 20px;
+    background-image: url(imgs/contact-details-map2.png);
+    background-size: cover;
+}
+.segment td{
+    border-bottom:1px solid #969696;
+}
+.segment h2{
+    color: #969696;
+    font-size: 15px;
+    font-family: 'Alegreya', serif;
+    font-weight: 300;
+    border-bottom: 1px solid #969696 ;
+    margin: 25px;
+    padding-bottom: 10px;
+}
+.segment p{
+    font-size: 15px;
+    font-family: 'Alegreya', serif;
+    font-weight: 300;
+    color:#969696;
+    line-height: 1.7;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.segment img {
+    width:40%;
+}
+.segment h3{
+    width: 150px;
+    font-family: 'Alegreya Sans', serif;
+    font-size: 17px;
+    font-weight: 300 ;
+    margin-left: 20px;
+    color:#686868;
+}
+.final{
+    background-color: #353330;
+    text-align: center;
+    height: 300px;
+}
+.final img{
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.final h5{
+    font-family: 'Alegreya Sans', serif;
+    font-size: 15px;
+    font-weight: 300 ;
+    color:#686868;
+    margin-top: 20px;
+}
+
+.ficons{
+    width: 25% ;
+    float: left;
+}
+.ficons img{
+    width: 15%;
+    margin: 2px;
+    padding: 2px;
+    background-color: #484540;
+    border-radius: 50px;
+    
+}
